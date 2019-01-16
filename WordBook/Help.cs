@@ -42,8 +42,8 @@ namespace WordBook
                 "「Old」・・カテゴリーリストをカテゴリーの作成された日付の古い順に並び替えます。" + Environment.NewLine +
                 "「ABC」・・カテゴリーリストをABC順に並び替えます。" + Environment.NewLine +
                 "「Run」・・選択したカテゴリーを実行します。" + Environment.NewLine +
-                "「Questions」・・出題問題数を設定します。例）デフォルトのQuestionsが3の場合は、新規出題３問、1日前～の復習３問、１週間前～の復習３問、１か月前～の復習３問の計１２問が出題されます。尚、復習期間を満たさない事で出題問題数が不足する場合は、登録されている問題がランダムで出題されます。" + Environment.NewLine +
-                "「Repeat」・・Questionsで設定した問題数を繰り返します。上記のようにQuestionsが3の場合は合計で３６問に回答します。" + Environment.NewLine +
+                "「Questions」・・出題問題数を設定します。例）デフォルトのQuestionsが5の場合は、新規出題5問、1日前～の復習5問、１週間前～の復習5問、１か月前～の復習5問の計20問が出題されます。尚、復習期間を満たさない事で出題問題数が不足する場合は、登録されている問題がランダムで出題されます。" + Environment.NewLine +
+                "「Repeat」・・Questionsで設定した問題数を繰り返します。Repeat回数が１でQuestionsが5の場合は合計で40問に回答します。" + Environment.NewLine +
                 "CategoryMenu「Add」・・問題を登録することができます。カテゴリーを新規で作成した場合は、まずこちらから問題を登録します。その後はCategoryEditからも問題を追加することが出来るようになります。FirstTextへは問題、SecondTextへは回答、Additionへは補足、AudioURLへは音声の再生先URL（右クリック＞リンクのアドレスをコピー）を登録します。" + Environment.NewLine +
                 "CategoryMenu「Delete」・・カテゴリーを削除します。" + Environment.NewLine +
                 "CategoryMenu「CategoryEdit」・・カテゴリーへ登録した問題の一覧を表示します。またここから問題の編集・削除・問題の追加をすることが出来ます。" + Environment.NewLine +
